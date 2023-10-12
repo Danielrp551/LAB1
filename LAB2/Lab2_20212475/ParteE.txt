@@ -1,0 +1,17 @@
+Daniel Rivas Pareja - 20212475 
+
+Resultados : 
+
+El area calculada en C es : 13.625
+El tiempo de ejecuccion en C es : 482.00 ns
+El area calculada en ASM es: 13.625
+El tiempo de ejecuccion en ASM es : 271.00 ns
+
+El SpeedUp entre C y ASM es: 1.779
+
+Conclusion : La funcion mas optima de utilizar seria la funcion realizada en ASM ("asmCalcularAreaPoligono") ya que nos presenta
+un menor tiempo de ejecuccion a comparacion de la funcion de la funcion realizada en C ("cCalcularAreaPoligono"). Esto se denota en el SpeedUp
+donde vemos el como este valor es mayor a 1, por lo cual, nos dice que este tiempo de ejecuccion de la funcion en ASM es mejor en referencia al tiempo de
+ejecuccion de la funcion hecha en C. Esto se puede deber a que la funcion hecha en C realiza mas instrucciones dentro al pasarlo a lenguaje ensamblador, por lo cual involucraria
+mas tiempo de ejecuccion.
+
